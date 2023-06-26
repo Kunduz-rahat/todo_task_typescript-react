@@ -134,7 +134,7 @@ const App:React.FC = () => {
         })}
         </div>
         <div>
-        <button  type='button' className='btn btn-light' onClick={()=>removeCompleteTodo}>Clear completed</button>
+        <button  type='button' className='btn btn-light' onClick={()=>removeCompleteTodo()}>Clear completed</button>
         </div>
       
         
